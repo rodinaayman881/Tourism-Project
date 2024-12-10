@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav style="position: fixed;top: 0;left: 0;right: 0;z-index: 1000;">
+        <div class="logo">BookStore</div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search for books...">
+            <button class="search-button">Search</button>
+        </div>
+    </nav>
+
+    <!-- About Us Section -->
+    <section class="section" id="about-us" style="text-align: center;">
+        <h2 style="margin-top: 30px;">About Us</h2>
+        <p>Welcome to BookStore, your one-stop shop for all types of books. We offer a wide variety of genres, including fiction, non-fiction, romance, thriller, and much more.</p>
+    </section>
+
+    <!-- Books Section -->
+    <section class="section" id="books">
+        <h2>Our Books</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./photo/The Great Gatsby.jpeg" alt="Book 1">
+                <h3>Book Title: The Great Gatsby</h3>
+                <p>Author: F. Scott Fitzgerald</p>
+            </div>
+            <div class="card">
+                <img src="./photo/moby dick.jpeg" alt="Book 2">
+                <h3>Book Title: Moby Dick</h3>
+                <p>Author: Herman Melville</p>
+            </div>
+            <div class="card">
+                <img src="./photo/To Kill a Mockingbird.jpeg" alt="Book 3">
+                <h3>Book Title: To Kill a Mockingbird</h3>
+                <p>Author: Harper Lee</p>
+            </div>
+            <div class="card">
+                <img src="./photo/1984 Reading Music _ George Orwell's Dystopian Ambience [Music, Sounds, Animations, Quotes].jpeg" alt="Book 4">
+                <h3>Book Title: 1984</h3>
+                <p>Author: George Orwell</p>
+            </div>
+            <div class="card">
+                <img src="./photo/Pride and Prejudice by Jane Austen_ PDF Instant Download.jpeg" alt="Book 5">
+                <h3>Book Title: Pride and Prejudice</h3>
+                <p>Author: Jane Austen</p>
+            </div>
+            <div class="card">
+                <img src="./photo/Crime and Punishment.jpeg" alt="Book 6">
+                <h3>Book Title: Crime and Punishment</h3>
+                <p>Author: Fyodor Dostoevsky</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="section" id="new-arrivals">
+        <h2>New Arrivals</h2>
+        <div class="cards-container">
+            <!-- New Books -->
+            <div class="card">
+                <img src="./photo/books I recommend.jpeg" alt="New Book 1">
+                <h3>New Book: The Silent Patient</h3>
+                <p>Author: Alex Michaelides</p>
+            </div>
+            <div class="card">
+                <img src="./photo/Tiểu Thuyết Thiếu Niên Tiếng Anh_ The Night Circus.jpeg" alt="New Book 2">
+                <h3>New Book: The Night Circus</h3>
+                <p>Author: Erin Morgenstern</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section" id="categories">
+        <h2>Categories</h2>
+        <div class="category-container">
+            <div class="category-card">
+                <h3>Fiction</h3>
+            </div>
+            <div class="category-card">
+                <h3>Non-Fiction</h3>
+            </div>
+            <div class="category-card">
+                <h3>Romance</h3>
+            </div>
+            <div class="category-card">
+                <h3>Thriller</h3>
+            </div>
+            <div class="category-card">
+                <h3>Fantasy</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section" id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-container">
+            <p>"BookStore has an amazing selection of books. I love how easy it is to find new titles!" - Jane Doe</p>
+            <p>"Great prices and excellent customer service. Highly recommend!" - John Smith</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section" id="blog" style="text-align: center;">
+        <h2>Our Blog</h2>
+        <p>Stay tuned for the latest news on upcoming book releases, reviews, and recommendations.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 BookStore. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
